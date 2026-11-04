@@ -1,2 +1,60 @@
-<!doctype html><title>MD Games</title><h1>MD Games</h1>
-<p><a href="/mdgames-privacy/">Privacy Policy</a></p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MD Games</title>
+<meta name="description" content="MD Games makes cozy, relaxing mobile games. Home of Cats Need Naps: Cozy Puzzle.">
+<link rel="icon" type="image/png" href="img/md-games.png">
+<style>
+:root { --bg:#0d1d45; --bg2:#14295c; --cream:#f6ecdb; --muted:#b9c3dc; --orange:#f5821f; --card:#ffffff10; --line:#ffffff22; }
+* { box-sizing:border-box; }
+body { margin:0; background:radial-gradient(1200px 600px at 50% -10%, var(--bg2), var(--bg)); color:var(--cream); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; min-height:100vh; }
+main { max-width:820px; margin:0 auto; padding:48px 16px 32px; }
+header { text-align:center; }
+header img { width:132px; height:132px; border-radius:28px; box-shadow:0 12px 32px #0006; }
+h1 { font-size:2.2rem; margin:20px 0 4px; letter-spacing:.02em; }
+.tagline { color:var(--muted); margin:0; font-size:1.1rem; }
+h2 { font-size:1rem; text-transform:uppercase; letter-spacing:.12em; color:var(--orange); margin:48px 0 16px; }
+.game { display:flex; gap:20px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:24px; padding:20px; }
+.game img { width:112px; height:112px; border-radius:24px; flex:none; }
+.game h3 { margin:0 0 4px; font-size:1.3rem; }
+.game p { margin:0 0 10px; color:var(--muted); }
+.pill { display:inline-block; font-size:.85rem; font-weight:600; padding:4px 12px; border-radius:999px; background:var(--orange); color:#1b1206; }
+.links { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+.links a { display:block; padding:14px 18px; border-radius:16px; background:var(--card); border:1px solid var(--line); color:var(--cream); text-decoration:none; font-weight:600; }
+.links a span { display:block; font-weight:400; font-size:.9rem; color:var(--muted); word-break:break-word; }
+.links a:hover, .links a:focus-visible { border-color:var(--orange); }
+footer { text-align:center; color:var(--muted); font-size:.9rem; margin-top:56px; }
+@media (max-width:520px) { .game { flex-direction:column; text-align:center; } h1 { font-size:1.8rem; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+<img src="img/md-games.png" alt="MD Games logo">
+<h1>MD Games</h1>
+<p class="tagline">Cozy, relaxing games for your phone.</p>
+</header>
+
+<h2>Our games</h2>
+<article class="game">
+<img src="img/cats-need-naps.png" alt="Cats Need Naps app icon: a cream kitten asleep on a red cushion">
+<div>
+<h3>Cats Need Naps: Cozy Puzzle</h3>
+<p>Place sleepy cats on the right cushions in this relaxing, no-timer logic puzzle. Every puzzle has exactly one solution.</p>
+<span class="pill">Coming soon to Google Play</span>
+</div>
+</article>
+
+<h2>Information</h2>
+<nav class="links">
+<a href="/mdgames-privacy/">Privacy Policy<span>How our games handle data</span></a>
+<a href="/mdgames-privacy/delete-data.html">Data Deletion<span>Ask us to delete your data</span></a>
+<a href="mailto:lunart.social.contact@gmail.com">Contact &amp; Support<span>lunart.social.contact@gmail.com</span></a>
+</nav>
+
+<footer>© 2026 MD Games</footer>
+</main>
+</body>
+</html>
